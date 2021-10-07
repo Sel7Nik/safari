@@ -104,3 +104,29 @@ a {
   text-align: center;
   margin-bottom: 15px;
 }
+
+/* ! direction */
+
+.direction__inner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 32px;
+  padding: 100px 0;
+}
+
+.direction__item {
+  margin-bottom: 31px;
+}
+
+.direction__img {
+  display: block;
+}
+
+.description_text {
+  font-size: 16px;
+  border: 1px solid #D9D9DE;
+  border-top: none;
+  line-height: 19px;
+  color: #1F1E1E;
+  padding: 12px 19px 19px;
+}
