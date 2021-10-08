@@ -225,3 +225,35 @@ a {
 .popular__link-country, .popular__link-time {
   margin-bottom: 15px;
 }
+
+/* ! map */
+
+.map {
+  padding-bottom: 100px;
+}
+
+.map__title {
+  margin-bottom: 46px;
+}
+
+.about__title {
+  margin-bottom: 100px;
+}
+
+/*! about*/
+
+.about__inner {
+  display: flex;
+}
+
+.about__contant {}
+
+.about__title {
+  text-align: left;
+}
+
+.about__text {}
+
+.about__link {}
+
+.about__popup {}
