@@ -279,4 +279,37 @@ a {
   align-items: center;
 }
 
-.about__link-img {}
+/*!  gallery*/
+
+.gallery {
+  padding: 50px 0 105px;
+  background-color: #886239;
+  color: #ffffff;
+}
+
+.gallery__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-right: 160px;
+}
+
+.gallery__item-inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 32px;
+}
+
+.slick-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: -85px;
+  right: 0;
+}
+
+.slick-prev {
+  right: 60px;
+}
