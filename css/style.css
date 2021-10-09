@@ -242,17 +242,11 @@ a {
 
 /*! about*/
 
-.about {
-  /* padding-bottom: 100px; */
-}
-
 .about__inner {
   display: grid;
   grid-template-columns: 448px 640px;
   grid-gap: 32px;
 }
-
-.about__contant {}
 
 .about__title {
   text-align: left;
